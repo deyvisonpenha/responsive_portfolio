@@ -2,25 +2,70 @@
 // Font Variables
 $indice-flower: 'Indie Flower', cursive;   
 $playfair-display: 'Playfair Display', serif;
-
-
+$Dancing-Script: 'Dancing Script', cursive;
+$Open-Sans-Condensed: 'Open Sans Condensed', sans-serif;
+$Merriweather: 'Merriweather', serif;
+$Bilbo: 'Bilbo', cursive;
+$Mrs-Saint-Delafield: 'Mrs Saint Delafield', cursive;
+$Quicksand: 'Quicksand', sans-serif;
 
 body {
 	font-family: $indice-flower;
 }
 
-h1 {
-	font-family: $playfair-display;
+h1{
+	font-family: $Merriweather;
+}
+
+h2{
+	font-family: $Quicksand;
+}
+
+h3{
+	font-family: $indice-flower;
+	font-size: 2.8rem
 }
 
 .carousel-inner .carousel-item img {
-    max-width: 100%;
     max-height:100vh;
     width: 100%;
-    height: auto;
-    display: inline;
 }
 
 .mydiv {
 	height: 100vh;
+	background-color: #C7DCFC;
 }
+
+.slide1 {
+   position: absolute;
+   top: 30%;
+}
+
+.slide2 {
+   position: absolute;
+   top: 15%;
+}
+
+ .pt-6{
+ margin-top: ($spacer * 8) !important;
+ }
+
+h1 {
+  font-size: 4.9vw;
+}
+
+@media (max-width: 575.98px) {
+
+.mydiv {
+height: 100%;
+}
+
+.carousel-inner .carousel-item img {
+width: 100%;
+}
+
+.media{
+	width: 100%;
+}
+}
+
